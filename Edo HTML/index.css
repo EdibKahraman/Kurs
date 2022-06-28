@@ -1,0 +1,19 @@
+.container div p {
+
+    color: blue;
+}
+
+
+
+
+
+(p)       --> tüm p etiketleri
+(div p)   --> divin içerisindeki p'ler
+(div,p)   --> tüm div ve tüm p'ler
+(div + p) --> div etiketinden sonra gelen p'ler
+
+
+
+
+
+
