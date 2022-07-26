@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 10px;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+p {
+
+    padding: 1.6 0;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+b {
+    color: gold;
+
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+header {
+
+    height: 46rem;
+
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(images/1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+header h1 {
+
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    margin: .5 0;
+    padding: 1.2rem 3.6rem;
+    color: #fff;
+    background: #333;
+    border: 1px solid #666;
+    display: inline-block;
+    transition: all 0.5s;
+
+}
+
+.btn:hover {
+
+    background-color: white;
+    color: #333;
+
+}
+
+#section-a {
+
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+
+}
+
+#section-b {
+
+    border: #333 solid 1rem;
+
+}
+
+#section-b ul {
+
+    list-style: none;
+
+}
+
+#section-b li {
+
+    background-color: #fff;
+    color: #333;
+
+}
+
+.col-content {
+
+    padding: 1.5rem;
+
+}
+
+h3 {
+
+    font-size: 3rem;
+    color: black;
+
+}
+
+#section-c {
+
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+
+}
+
+.aboutus .baks {
+
+    padding: 5rem;
+}
+
+.aboutus .baks:first-child {
+
+    background-color: darkslategray;
+
+}
+
+.contactus .box {
+
+    padding: 5rem;
+}
+
+.ytb {
+    margin: .5 0;
+    padding: 1.2rem 3.6rem;
+    color: #fff;
+    background: #333;
+    border: 1px solid #666;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+.ytb:hover {
+
+    background-color: white;
+    color: #333;
+
+}
+
+.int {
+    margin: .5 0;
+    padding: 1.2rem 3.6rem;
+    color: #fff;
+    background: darkslategray;
+    border: 1px solid #666;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+.int:hover {
+
+    background-color: white;
+    color: #333;
+
+}
+
+footer {
+    padding: 4rem;
+    background-color: black;
+
+}
+
+a {
+
+    color: yellowgreen;
+}
